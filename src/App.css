@@ -1,0 +1,29 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.homePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navContainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+.navBar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainImage {
+  width: auto;
+  height: 100vh;
+}
