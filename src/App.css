@@ -1,14 +1,11 @@
-*,
-html {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.homePage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(221, 231, 253, 0.749);
 }
 .navContainer {
   width: 100%;
@@ -22,8 +19,34 @@ html {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  background-color: white;
 }
-.mainImage {
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  align-items: center;
+}
+.mainContent h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contentRow {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 5rem;
+}
+.leftSide {
+  text-align: left;
+}
+.rightSide {
+  flex-shrink: 0;
+}
+.rightImg {
   width: auto;
-  height: 100vh;
+  height: 400px;
+  border-radius: 20px;
 }

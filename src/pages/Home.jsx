@@ -12,12 +12,17 @@ function Home() {
             <a href="#">Kontakt</a>
           </nav>
         </div>
-        <div className="mainContainer">
-          <main>
-            <h1>Välkommen till Brf Öland 2</h1>
-            <img className="mainImage" src="./src/images/brf.jpg" />
-          </main>
-        </div>
+        <main className="mainContent">
+          <h1>Välkommen till Brf Öland 2</h1>
+          <div className="contentRow">
+            <div className="leftSide">
+              <p> Den bästa bostadsrättföreningen någonsin</p>
+            </div>
+            <div className="rightSide">
+              <img className="rightImg" src="./src/images/brf2.png" />
+            </div>
+          </div>
+        </main>
       </div>
       <Footer />
     </>
