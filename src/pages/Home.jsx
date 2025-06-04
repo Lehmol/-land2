@@ -1,4 +1,5 @@
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
           <img src="./src/images/6268.jpg" />
         </aside>
       </main>
+      <Footer />
     </>
   );
 }

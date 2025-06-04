@@ -20,11 +20,28 @@ a {
 .navBar a:hover {
   color: rgb(74, 74, 254);
 }
+.navBtn {
+  background-color: rgb(80, 158, 236);
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.navBtn:hover {
+  background-color: rgb(91, 91, 240);
+}
 .mainContent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 60px;
+  font-size: larger;
 }
 .rightSide,
 img {

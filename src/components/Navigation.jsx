@@ -6,8 +6,8 @@ function Navigation() {
       <a href="/">Hem</a>
       <a href="/">Nyheter</a>
       <a href="/">Styrelsen</a>
-      <a href="/">För medlemmar</a>
-      <button>Kontakta oss</button>
+      <a href="/">Om föreningen</a>
+      <button className="navBtn">Kontakta oss</button>
     </nav>
   );
 }
